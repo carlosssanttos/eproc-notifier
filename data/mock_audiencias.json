@@ -1,0 +1,32 @@
+[
+  {
+    "num_processo": "8888888-88.8888.8.88.8888",
+    "vara": "2ª Vara Judicial da Comarca de Eldorado do Sul",
+    "evento": "Audiência de instrução designada",
+    "data_hora": "2026-07-10T14:10:00",
+    "previsao_fim": "2026-07-10T15:00:00",
+    "sala": "Sala de Audiência",
+    "link_webconf": "https://meet.tjrs.jus.br/sala-exemplo-1",
+    "partes": "FULANA DA SILVA (Autor) x FULANO DE TAL (Réu)"
+  },
+  {
+    "num_processo": "99999999-99.9999.9.99.9999",
+    "vara": "5ª Vara Criminal da Comarca de Porto Alegre",
+    "evento": "Audiência de instrução e julgamento designada",
+    "data_hora": "2026-07-13T16:00:00",
+    "previsao_fim": "2026-07-13T16:50:00",
+    "sala": "9ª VARA CRIMINAL - Sala de Audiências nº 666",
+    "link_webconf": "https://meet.tjrs.jus.br/sala-exemplo-2",
+    "partes": "MINISTÉRIO PÚBLICO DO ESTADO (Autor) x FULANO DE TAL 1, FULANA DE TAL 2 (Acusados)"
+  },
+  {
+    "num_processo": "1111111-11.1111.1.11.1111",
+    "vara": "3ª Vara Cível da Comarca de Canoas",
+    "evento": "Audiência de conciliação designada",
+    "data_hora": "2026-07-15T09:30:00",
+    "previsao_fim": "2026-07-15T10:00:00",
+    "sala": "Sala de Conciliação 2",
+    "link_webconf": null,
+    "partes": "COMÉRCIO DE AUTOMÓVEIS LTDA (Réu) x JOÃO DA SILVA (Autor)"
+  }
+]

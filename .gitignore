@@ -1,0 +1,37 @@
+# Variáveis de ambiente — nunca commitar
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Testes e cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
