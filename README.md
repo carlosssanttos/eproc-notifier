@@ -1,4 +1,4 @@
-# pauta-bot
+# eproc-notifier
 
 Bot de lembretes de audiências do eProc/TJRS via Telegram.
 
@@ -132,7 +132,7 @@ Para manter rodando em produção, use `nohup`, `screen`, ou um serviço systemd
 ## Estrutura do projeto
 
 ```
-pauta-bot/
+eproc-notifier/
 ├── data/
 │   └── mock_audiencias.json   # Audiências fictícias para Fase 1
 ├── src/

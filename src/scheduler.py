@@ -26,7 +26,7 @@ def sincronizar_e_notificar() -> None:
     2. Faz upsert de cada uma no banco.
     3. Roda o motor de notificações.
     """
-    logger.info("=== Iniciando ciclo do pauta-bot ===")
+    logger.info("=== Iniciando ciclo do eproc-notifier ===")
 
     if config.USE_MOCK:
         audiencias = loader.carregar_audiencias()
@@ -55,7 +55,7 @@ def sincronizar_e_notificar() -> None:
 
 def main() -> None:
     """Ponto de entrada: modo imediato (--run-now) ou scheduler contínuo."""
-    parser = argparse.ArgumentParser(description="pauta-bot — notificador de audiências")
+    parser = argparse.ArgumentParser(description="eproc-notifier — notificador de audiências")
     parser.add_argument(
         "--run-now",
         action="store_true",
